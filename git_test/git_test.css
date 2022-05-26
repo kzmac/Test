@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap');
+
+@media screen and (min-hight: 640px) {
+  body, html {
+	height: 100%;
+  overflow-x: hidden;
+  margin:0;
+  }}
+
+body {
+	width:100%;
+	/*min-height: 100%;*/
+	background: blue;
+  text-align: center;
+  padding: 10% 0;
+  margin:0;
+}
+
+
+.middle{
+    hight: 0px;
+    text-align: center;
+}
+
+.btn-Line {
+  display: inline-block;
+  width: 300px;  /*?*/
+  height: 300px; /*?*/
+  background: var(--btn);
+  margin: 40px;			/*??*/
+  border-radius: 30%; /*??*/
+  box-shadow: 0 5px 15px -5px #000;
+  color: var(--icon);
+  overflow: hidden;
+  position: relative;
+  transition: 0.4s ease-in-out;
+}
+
+.btn-Line i{
+  position: absolute;
+  top: 8%;
+  left: 14%;
+  font-size: 250px; /*????????*/
+  transition: 0.6s ease-in-out;
+}
+
+.btn-Line:hover {
+  background-color: var(--bg);
+  box-shadow: none;
+}
+
+.btn-Line:hover i {
+  transform: scale(1.2);
+  color: white;
+}
+
+.btn-Line::before {
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  background: var(--btn-hover);
+  transform: rotate(45deg);
+  left: -110%;
+  top: 90%;
+  transform-origin: 50% 50%;
+  border-radius: 50%;
+  opacity: 0;
+}
+
+.btn-Line:hover::before {
+  transform: scale(1.2);
+  box-shadow: inset 0px 10px 46px -18px #000;
+  opacity: 1;
+  animation: sweet 0.7s 1;
+  top: -10%;
+  left: -10%;
+}
+
+@keyframes sweet {
+  0%{
+    left: -110%;
+    top: 90%;
+  }50%{
+    left: 10%;
+    top: -30%;
+  }100%{
+    top: -10%;
+    left: -10%;
+  }
+}
+*, *:after, *::before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style-type: none;
+	outline: none;
+}
+
+.btn-Twitter {
+  display: inline-block;
+  width: 300px;  /*?*/
+  height: 300px; /*?*/
+  background: var(--btn);
+  margin: 40px;			/*??*/
+  border-radius: 30%; /*??*/
+  box-shadow: 0 5px 15px -5px #000;
+  color: var(--icon);
+  overflow: hidden;
+  position: relative;
+  transition: 0.4s ease-in-out;
+}
+
+.btn-Twitter i{
+  position: absolute;
+  top: 12%;
+  left: 15%;
+  font-size: 230px; /*????????*/
+  transition: 0.6s ease-in-out;
+}
+
+.btn-Twitter:hover {
+  background-color: var(--bg);
+  box-shadow: none;
+}
+
+.btn-Twitter:hover i {
+  transform: scale(1.2);
+  color: white;
+}
+
+.btn-Twitter::before {
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  background: var(--btn-hover);
+  transform: rotate(45deg);
+  left: -110%;
+  top: 90%;
+  transform-origin: 50% 50%;
+  border-radius: 50%;
+  opacity: 0;
+}
+
+.btn-Twitter:hover::before {
+  transform: scale(1.2);
+  box-shadow: inset 0px 10px 46px -18px #000;
+  opacity: 1;
+  animation: sweet 0.7s 1;
+  top: -10%;
+  left: -10%;
+}
+
+@keyframes sweet {
+  0%{
+    left: -110%;
+    top: 90%;
+  }50%{
+    left: 10%;
+    top: -30%;
+  }100%{
+    top: -10%;
+    left: -10%;
+  }
+}
+*, *:after, *::before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style-type: none;
+	outline: none;
+}
+
+
+.btn-Instagram {
+  display: inline-block;
+  width: 300px;  /*?*/
+  height: 300px; /*?*/
+  background: var(--btn);
+  margin: 40px;			/*??*/
+  border-radius: 30%; /*??*/
+  box-shadow: 0 5px 15px -5px #000;
+  color: var(--icon);
+  overflow: hidden;
+  position: relative;
+  transition: 0.4s ease-in-out;
+}
+
+.btn-Instagram i{
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  font-size: 280px; /*????????*/
+  transition: 0.6s ease-in-out;
+}
+
+.btn-Instagram:hover {
+  background-color: var(--bg);
+  box-shadow: none;
+}
+
+.btn-Instagram:hover i {
+  transform: scale(1.2);
+  color: white;
+}
+
+.btn-Instagram::before {
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  background: var(--btn-hover);
+  transform: rotate(45deg);
+  left: -110%;
+  top: 90%;
+  transform-origin: 50% 50%;
+  border-radius: 50%;
+  opacity: 0;
+}
+
+.btn-Instagram:hover::before {
+  transform: scale(1.2);
+  box-shadow: inset 0px 10px 46px -18px #000;
+  opacity: 1;
+  animation: sweet 0.7s 1;
+  top: -10%;
+  left: -10%;
+}
+
+@keyframes sweet {
+  0%{
+    left: -110%;
+    top: 90%;
+  }50%{
+    left: 10%;
+    top: -30%;
+  }100%{
+    top: -10%;
+    left: -10%;
+  }
+}
+*, *:after, *::before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style-type: none;
+	outline: none;
+}
+
+.btn-Discord {
+  display: inline-block;
+  width: 300px;  /*?*/
+  height: 300px; /*?*/
+  background: var(--btn);
+  margin: 40px;			/*??*/
+  border-radius: 30%; /*??*/
+  box-shadow: 0 5px 15px -5px #000;
+  color: var(--icon);
+  overflow: hidden;
+  position: relative;
+  transition: 0.4s ease-in-out;
+}
+
+.btn-Discord i{
+  position: absolute;
+  top: 15%;
+  left: 9%;
+  font-size: 200px; /*????????*/
+  transition: 0.6s ease-in-out;
+}
+
+.btn-Discord:hover {
+  background-color: var(--bg);
+  box-shadow: none;
+}
+
+.btn-Discord:hover i {
+  transform: scale(1.2);
+  color: white;
+}
+
+.btn-Discord::before {
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  background: var(--btn-hover);
+  transform: rotate(45deg);
+  left: -110%;
+  top: 90%;
+  transform-origin: 50% 50%;
+  border-radius: 50%;
+  opacity: 0;
+}
+
+.btn-Discord:hover::before {
+  transform: scale(1.2);
+  box-shadow: inset 0px 10px 46px -18px #000;
+  opacity: 1;
+  animation: sweet 0.7s 1;
+  top: -10%;
+  left: -10%;
+}
+
+@keyframes sweet {
+  0%{
+    left: -110%;
+    top: 90%;
+  }50%{
+    left: 10%;
+    top: -30%;
+  }100%{
+    top: -10%;
+    left: -10%;
+  }
+}
+*, *:after, *::before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style-type: none;
+	outline: none;
+}
+
+.btn:hover {
+  background-color: var(--bg);
+  box-shadow: none;
+}
+
+.btn:hover i {
+  transform: scale(1.2);
+  color: white;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  background: var(--btn-hover);
+  transform: rotate(45deg);
+  left: -110%;
+  top: 90%;
+  transform-origin: 50% 50%;
+  border-radius: 50%;
+  opacity: 0;
+}
+
+.btn:hover::before {
+  transform: scale(1.2);
+  box-shadow: inset 0px 10px 46px -18px #000;
+  opacity: 1;
+  animation: sweet 0.7s 1;
+  top: -10%;
+  left: -10%;
+}
